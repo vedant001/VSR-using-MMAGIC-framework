@@ -42,10 +42,10 @@ This project focuses on video super-resolution using the MMagic framework, where
 
 
 # PSNR & SSIM of all models
-MODEL NAME	  PSNR SCORE	  SSIM
-EDVR	      30.4261 dB	  0.8690
-BASICVSR	  31.4255 dB	  0.8915
-ICONVSR	    31.7017 dB	  0.8957
+  	  
+EDVR	  : PSNR SCORE   30.4261 dB	SSIM  0.8690
+BASICVSR : PSNR SCORE  31.4255 dB	SSIM  0.8915
+ICONVSR	: PSNR SCORE   31.7017 dB	SSIM  0.8957
 
 
 
