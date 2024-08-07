@@ -40,6 +40,15 @@ This project focuses on video super-resolution using the MMagic framework, where
 
 - **REDS Dataset:** A high-quality dataset used for training and evaluation.
 
+
+# PSNR & SSIM of all models
+MODEL NAME	  PSNR SCORE	  SSIM
+EDVR	      30.4261 dB	  0.8690
+BASICVSR	  31.4255 dB	  0.8915
+ICONVSR	    31.7017 dB	  0.8957
+
+
+
 ## Acknowledgments
 
 This project utilizes the [MMagic framework](https://github.com/open-mmlab/mmagic) for video super-resolution tasks. We acknowledge and thank the MMagic team for their valuable contribution to the open-source community and for providing the tools necessary for implementing and evaluating state-of-the-art models.
