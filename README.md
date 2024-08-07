@@ -40,4 +40,12 @@ This project focuses on video super-resolution using the MMagic framework, where
 
 - **REDS Dataset:** A high-quality dataset used for training and evaluation.
 
+## Acknowledgments
+
+This project utilizes the [MMagic framework](https://github.com/open-mmlab/mmagic) for video super-resolution tasks. We acknowledge and thank the MMagic team for their valuable contribution to the open-source community and for providing the tools necessary for implementing and evaluating state-of-the-art models.
+
+For more details on the MMagic framework, please visit their [GitHub repository](https://github.com/open-mmlab/mmagic) and refer to their documentation for further information.
+
+
+
 
