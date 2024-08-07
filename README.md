@@ -51,91 +51,7 @@ I would like to express my deepest gratitude to my project supervisor, Prof. Mar
 
 I extend my sincere appreciation to my former project supervisor, Nabajeet Barman, whose early contributions laid the foundation for this work. His dedication to fostering a collaborative and intellectually stimulating environment has been truly enriching.
 
-This endeavour would not have been possible without the support of these individuals, and for that, I am truly grateful.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Table of Contents
-ABSTRACT	2
-Acknowledgements	3
-Chapter 1: Introduction	6
-1.1 Introduction to Data Science	6
-1.2 Definition and Importance of Video Super Resolution	6
-1.3 Background and Motivation:	7
-1.4 Stakeholders Concern	8
-1.5 Aims & Objectives:	8
-1.6 Summary of Contribution and Thesis Outline	9
-1.7 Technologies & Resources:	9
-1.8 Ethics Relevance and Progress	10
-Chapter 2: Literature Review:	10
-2.1 Overview	10
-2.2 Interpolation Method	10
-2.3 Sparse Coding and Neural Network	12
-2.4 Deep Learning	13
-2.5 Single Image Super-Resolution: SRCNN (Super-Resolution Convolutional Neural Network)	14
-2.6 Overview of Image Super Resolution vs. Video Super Resolution	15
-2.7 Generative AI	16
-Types of GAN	17
-2.8 Efficient Sub-Pixel Convolutional Networks:	18
-2.9 Loss Function & its types:	19
-2.10 Techniques: Single frame vs. Temporal Approaches	20
-2.11 Challenges in Video Super Resolution	21
-2.12 Summary of Literature Review	22
-Chapter 3: Video Super Resolution Implementation & Evaluation	22
-3.1 Overview	22
-3.2 Dataset Description	23
-3.3 Models and Analysis	24
-3.3.1 EDVR	24
-3.3.2 BasicVSR	27
-3.3.3 Icon VSR	31
-3.3.4 Metrics	32
-3.3.5 Visual Results	34
-Chapter 4:  Conclusion:	36
-References	37
-
-List of Figures
-Figure 1 Super Resolution Divisions	7
-Figure 2  Bilinear Interpolation  and Bicubic Interpolation	11
-Figure 3 Functioning of Super resolution using deep learning methods borrowed from [1]	13
-Figure 4 Proposed Architecture [11]	14
-Figure 5 Comparison of the SRCNN output	14
-Figure 6 Reference architecture with three convolutional layers for super-resolution of images. borrowed from [15]	15
-Figure 7 Architecture diagram of the Video Enhancement using Single Image Super Resolution Model	16
-Figure 8 GAN	17
-Figure 9 Vanilla GAN	17
-Figure 10 Conditional GAN	18
-Figure 11 Temporal Modulation addition in Super Resolution	21
-Figure 12 Comparing various images of REDS.	23
-Figure 13 The EDVR framework.	24
-Figure 14 Basic VSR Architecture and Propagations [16]	27
-Figure 15 Unidirectional Propagation frame index vs PSNR	28
-Figure 16 Two main components of ICONVSR [16]	31
-Figure 17 Comparison of all three models on the scale of SSIM & PSNR	34
-Figure 18 Output of ICONVSR	35
-Figure 19: Output of BasicVSR	35
-Figure 20 Output of EDVR	36
-
-
-
-
-
+This endeavour would not have been possible without the support of these individuals, and for that, I am truly gratefu
 
 
 
@@ -181,6 +97,8 @@ The following are the most important contributions of the thesis:
 •	This study evaluates the different models of the VSR such as EDVR, ICON VSR & BASICVSR. It focuses on every layer of the model and explains complete cycle.
 •	In this study after evaluating the models they are compared based on the quantitative metric like Peak Signal-to-Noise Ratio (PSNR) & Structural Similarity Index (SSIM). 
 Below is the details thesis outline of the research:
+
+
 Chapter 1- Introduction:
 This chapter provides brief overview of the Video Super Resolution context, problem statement, Background and motivation, Explanation of the VSR domain and its relevance.
 Chapter-2 Literature Review:
